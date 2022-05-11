@@ -3,29 +3,41 @@ import { IComida } from '../models/comida.model';
 export const LISTA_COMIDAS_MOCK: IComida[] = [
   {
     id: 1,
-    titulo: 'COMIDA 1',
+    titulo: 'X-Salada',
     enderecoImagem:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7rJExVvxt_mpPIGXj158zUortqVCC8587Og&usqp=CAU',
+    'assets/xsalada.jpg',
     descricao:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae necessitatibus, aut quo, sit temporibus, explicabo distinctio aperiam cupiditate incidunt suscipit quam corrupti? Fuga tempore rem incidunt, numquam vitae voluptates dolorem.',
+    "Molho especial, o melhor hamburguer de carne feito na casa todos os dias, queijo, alface, rucula, tomate, cebola e pepino em conserva.",
     valor: 15.0,
   },
   {
     id: 2,
-    titulo: 'COMIDA 2',
+    titulo: 'X-Bacon',
     enderecoImagem:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7rJExVvxt_mpPIGXj158zUortqVCC8587Og&usqp=CAU',
+    'assets/xbacon.jpg',
     descricao:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae necessitatibus, aut quo, sit temporibus, explicabo distinctio aperiam cupiditate incidunt suscipit quam corrupti? Fuga tempore rem incidunt, numquam vitae voluptates dolorem.',
+    "Molho especial, bacon especial com o melhor hamburguer de carne feito na casa todos os dias, ovo, queijo, alface, rúcula, tomate, cebola e pepino em conserva.",
     valor: 20.0,
   },
   {
     id: 3,
-    titulo: 'COMIDA 3',
+    titulo: 'X-Frango',
     enderecoImagem:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7rJExVvxt_mpPIGXj158zUortqVCC8587Og&usqp=CAU',
+    'assets/xfrango.PNG',
     descricao:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae necessitatibus, aut quo, sit temporibus, explicabo distinctio aperiam cupiditate incidunt suscipit quam corrupti? Fuga tempore rem incidunt, numquam vitae voluptates dolorem.',
-    valor: 30.0,
+    "Molho especial, frango marinado, queijo, alface, tomate, rúcula, cebola roxa grelhada e pepino em conserva.",
+     valor: 15.0
   },
-];
+  {
+    id: 4,
+    titulo: 'Vegetariano',
+    enderecoImagem:
+    'assets/vegano.PNG',
+    descricao:
+    "Molho especial à base de queijo cheddar, queijo prato, hambúrguer: escolha entre grão de bico (tempero suave) ou de feijão fradinho (tempero mais picante). E ainda: alface, rúcula, tomate, cebola roxa grelhada e pepino em conserva.",
+    valor: 20.0
+  
+  },
+]
+
+

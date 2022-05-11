@@ -2,61 +2,70 @@
   "comidas": [
     {
       "id": 1,
-      "titulo": "SUSHI",
-      "enderecoImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7rJExVvxt_mpPIGXj158zUortqVCC8587Og&usqp=CAU",
-      "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae necessitatibus, aut quo, sit temporibus, explicabo distinctio aperiam cupiditate incidunt suscipit quam corrupti? Fuga tempore rem incidunt, numquam vitae voluptates dolorem.",
-      "valor": 15
+      "titulo": "X-Salada",
+      "enderecoImagem":"assets/xsalada.jpg",
+      "descricao":
+      "Molho especial, o melhor hamburguer de carne feito na casa todos os dias, queijo, alface, rucula, tomate, cebola e pepino em conserva.",
+      "valor": 15.0
     },
     {
       "id": 2,
-      "titulo": "ESPETINHO",
-      "enderecoImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7rJExVvxt_mpPIGXj158zUortqVCC8587Og&usqp=CAU",
-      "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae necessitatibus, aut quo, sit temporibus, explicabo distinctio aperiam cupiditate incidunt suscipit quam corrupti? Fuga tempore rem incidunt, numquam vitae voluptates dolorem.",
-      "valor": 20
+      "titulo": "X-Bacon",
+      "enderecoImagem":"assets/xbacon.jpg",
+      "descricao": "Molho especial, bacon especial com o melhor hamburguer de carne feito na casa todos os dias, ovo, queijo, alface, rúcula, tomate, cebola e pepino em conserva.",
+      "valor": 20.0
     },
     {
-      "id": 3,
-      "titulo": "PORÇÃO DE BATATA",
-      "enderecoImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7rJExVvxt_mpPIGXj158zUortqVCC8587Og&usqp=CAU",
-      "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae necessitatibus, aut quo, sit temporibus, explicabo distinctio aperiam cupiditate incidunt suscipit quam corrupti? Fuga tempore rem incidunt, numquam vitae voluptates dolorem.",
-      "valor": 30
+    "id": 3,
+    "titulo": "X-Frango",
+    "enderecoImagem": "assets/xfrango.PNG",
+    "descricao": "Molho especial, frango marinado, queijo, alface, tomate, rúcula, cebola roxa grelhada e pepino em conserva.",
+     "valor": 15.0
     },
     {
-      "id": 4,
-      "titulo": "X-SALADA",
-      "enderecoImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7rJExVvxt_mpPIGXj158zUortqVCC8587Og&usqp=CAU",
-      "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae necessitatibus, aut quo, sit temporibus, explicabo distinctio aperiam cupiditate incidunt suscipit quam corrupti? Fuga tempore rem incidunt, numquam vitae voluptates dolorem.",
-      "valor": 30
+    "id": 4,
+    "titulo": "Vegetariano",
+    "enderecoImagem": "assets/vegano.PNG",
+    "descricao": "Molho especial à base de queijo cheddar, queijo prato, hambúrguer: escolha entre grão de bico (tempero suave) ou de feijão fradinho (tempero mais picante). E ainda: alface, rúcula, tomate, cebola roxa grelhada e pepino em conserva.",
+    "valor": 20.0
+
     }
   ],
   "bebidas": [
     {
       "id": 1,
-      "titulo": "SUCO LARANJA",
-      "enderecoImagem": "https://imagensemoldes.com.br/wp-content/uploads/2020/10/Ilustracao-Cocktail-PNG-924x1024.png",
-      "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae necessitatibus, aut quo, sit temporibus, explicabo distinctio aperiam cupiditate incidunt suscipit quam corrupti? Fuga tempore rem incidunt, numquam vitae voluptates dolorem.",
-      "valor": 10
+      "titulo": "Coca Cola",
+      "enderecoImagem": "assets/coca-lata.jpg",
+      "descricao": "Lata",
+      "valor": 3.00
     },
     {
-      "id": 2,
-      "titulo": "COCA LATA",
-      "enderecoImagem": "https://imagensemoldes.com.br/wp-content/uploads/2020/10/Ilustracao-Cocktail-PNG-924x1024.png",
-      "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae necessitatibus, aut quo, sit temporibus, explicabo distinctio aperiam cupiditate incidunt suscipit quam corrupti? Fuga tempore rem incidunt, numquam vitae voluptates dolorem.",
-      "valor": 15
+    "id": 2,
+    "titulo": "Pepsi",
+    "enderecoImagem": "assets/pepsi.jpg",
+    "descricao": "Lata",
+    "valor": 3.00
     },
     {
-      "id": 3,
-      "titulo": "CERVEJA SKOL",
-      "enderecoImagem": "https://imagensemoldes.com.br/wp-content/uploads/2020/10/Ilustracao-Cocktail-PNG-924x1024.png",
-      "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae necessitatibus, aut quo, sit temporibus, explicabo distinctio aperiam cupiditate incidunt suscipit quam corrupti? Fuga tempore rem incidunt, numquam vitae voluptates dolorem.",
-      "valor": 15
+    "id": 3,
+    "titulo": "Pureza",
+    "enderecoImagem":"assets/pureza-lata.PNG",
+    "descricao": "Lata",
+    "valor": 4.00
     },
     {
-      "id": 4,
-      "titulo": "SPRITE 2L",
-      "enderecoImagem": "https://imagensemoldes.com.br/wp-content/uploads/2020/10/Ilustracao-Cocktail-PNG-924x1024.png",
-      "descricao": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae necessitatibus, aut quo, sit temporibus, explicabo distinctio aperiam cupiditate incidunt suscipit quam corrupti? Fuga tempore rem incidunt, numquam vitae voluptates dolorem.",
-      "valor": 15
+    "id": 4,
+    "titulo": "Suco de limão",
+    "enderecoImagem": "assets/suco-limao.jpg",
+    "descricao": "Natural, 500ml",
+    "valor": 7.00
+    },
+    {
+    "id": 5,
+    "titulo": "Suco de laranja",
+    "enderecoImagem":"assets/bebida.jpg",
+    "descricao": "Natural, 500ml",
+    "valor": 7.00
     }
   ]
 }
